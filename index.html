@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="0;url=https://hatbox-satirical-smudgy.ngrok-free.dev/">
+<title>小鲸鱼</title>
+<style>
+  html,body{height:100%;margin:0;background:#0d1117;color:#c9d1d9;
+    font:15px/1.6 -apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;
+    display:flex;align-items:center;justify-content:center}
+  .box{text-align:center;padding:24px}
+  .whale{font-size:44px;line-height:1}
+  a{color:#58a6ff}
+  .muted{color:#7d8590;font-size:13px;margin-top:14px}
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="whale">🐳</div>
+  <p id="msg">正在跳转…</p>
+  <p class="muted"><a id="go" href="https://hatbox-satirical-smudgy.ngrok-free.dev/">如果没反应，点这里</a></p>
+</div>
+<script>
+  var target = "https://hatbox-satirical-smudgy.ngrok-free.dev/";
+  // 跳过去之后会看到输入口令的页面，输一次这个手机就记住了
+  setTimeout(function(){ location.replace(target); }, 300);
+</script>
+</body>
+</html>
